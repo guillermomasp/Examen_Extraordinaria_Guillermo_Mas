@@ -12,3 +12,16 @@ list = ["El día 12 de Navidad mi verdadero amor me dio",
 "3 gallinas francesas",
 "2 tórtolas y"
 "1 perdiz en un peral"]
+
+#Creamos la función
+def unifica_poema(poema: list):
+  poema_unificado = []
+
+
+def main():
+  poema = input('Introduce el poema: ')
+  poema = poema.split('\n')
+
+  poema = unificar_poema(poema)
+
+main()
