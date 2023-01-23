@@ -16,3 +16,9 @@ def cesar(chain,key):
     for i in range(len(chain)):
         cesar += chr((ord(chain[i]) - ord(key[i%len(key)]) + 26)%26 + ord("a"))
     return cesar
+
+if _name=="main_":
+    cadena = "HELLOWORLD"
+    key = "ABCXYZ"
+    print(original(cadena,key))
+    print(cesar(original(cadena,key),key))
