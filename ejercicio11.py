@@ -9,3 +9,4 @@ def es_potencia_de_4(x):
 #Le pedimos al usuario que nos mdiga su numero para hacer la comprobación
 print("¿Que número quiere comprobar?")
 x = int(input())
+print(es_potencia_de_4(x))
