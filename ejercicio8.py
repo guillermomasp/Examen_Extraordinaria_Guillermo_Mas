@@ -1,19 +1,14 @@
-#Creamos la función.
-def ordenar(lista):
-    for i in range(len(lista)):
-         for j in range(len(lista)):
-            if lista[i] > lista[j]:
-                aux = lista[i]
-                lista[i] = lista[j]
-                lista[j] = aux
-    return lista
-
-#Enseñamos la lista.
-if _name_ == "_main_":
-    lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-    
-    print(ordenar(lista))
-
-
-    #1 perdiz en un peral, 2 tortolas y , 3 gallinas francesas, 4 pájaros cantando, 5   anillos de oro, 6 gansos una puesta, 7 cisnes nadando, 8 críadas un ordeño,
-# 9 damas bailando , 10 señores de un salto, 11 gaiteros, 12 bateristas tocando el tambor
+#Creamos la lista.
+list = ["El día 12 de Navidad mi verdadero amor me dio",
+"12 bateristas tocando el tambor",
+"tubería de 11 gaiteros",
+"10 señores un salto",
+"9 damas bailando",
+"8 criadas un ordeño",
+"7 cisnes nadando",
+"6 gansos una puesta",
+"5 anillos de oro",
+"4 pájaros cantando",
+"3 gallinas francesas",
+"2 tórtolas y"
+"1 perdiz en un peral"]
