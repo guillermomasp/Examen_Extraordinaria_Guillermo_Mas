@@ -12,5 +12,9 @@ print("¿Qué letras quieres conocer su valor numérico?")
 word = input("")
 print("numeros(word)")
 
-
-
+#Comprobamos los que nos piden
+print(numeros("AAAB"))
+print(numeros("ABAB"))
+print(numeros("BAAA"))
+print(numeros("CONTADOR"))
+print(numeros("PREGUNTA"))
