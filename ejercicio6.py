@@ -9,6 +9,8 @@ def numeros(word):
 
 #Pedimos al usuario que inserte unas letras para comprobar:
 print("¿Qué letras quieres conocer su valor numérico?")
-word = int(input())
+word = input("")
+print("numeros(word)")
+
 
 
