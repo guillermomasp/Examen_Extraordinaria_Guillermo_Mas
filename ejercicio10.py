@@ -10,6 +10,6 @@ def potencia(base, exponente):
     if exponente < 0:
         print(None)
     else:
-        return base ^ exponente
+        return base ** exponente
 
-print(base ^ exponente)
+print(potencia(base, exponente))

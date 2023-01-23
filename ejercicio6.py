@@ -7,3 +7,8 @@ def numeros(word):
     position = permutaciones.index(tuple(word))
     return position + 1
 
+#Pedimos al usuario que inserte unas letras para comprobar:
+print("¿Qué letras quieres conocer su valor numérico?")
+word = int(input())
+
+
