@@ -12,3 +12,11 @@ class Warrior:
     if enemigo.posicion != position:
       enemigo.salud -= 10
 
+ninja = Warrior('ninja')
+warrior = Warrior('warrior')
+
+while ninja.salud >=0:
+  ninja.block(input('A que posicion bloquear [high or low]?: '))
+  warrior.attack(ninja, input('A que posicion atacar [high or low]?: '))
+
+  print(ninja.salud)
