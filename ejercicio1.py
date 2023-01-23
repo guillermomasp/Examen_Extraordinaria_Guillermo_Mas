@@ -21,5 +21,11 @@ class DotsAndBoxes(tk.Tk):
     def bind_events(self):
         self.canvas.bind("<Button-1>", self.draw_line)
 
+    def draw_line(self, event):
+        x, y = event.x, event.y
+        self.canvas.create_line(x - 25, y, x + 25, y)
 
+if __name__ == "__main__":
+    game = DotsAndBoxes()
+    game.mainloop()
 
